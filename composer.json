@@ -1,0 +1,23 @@
+{
+  "name": "shaun/fjwccy",
+  "autoload": {
+    "psr-4": {
+      "fjwccy\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Shaun",
+      "email": "870585669@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.3",
+    "lpilp/guomi": "*",
+    "ext-mbstring": "*",
+    "ext-ctype": "*",
+    "ext-bcmath": "*",
+    "ext-curl": "*",
+    "ext-json": "*"
+  }
+}
