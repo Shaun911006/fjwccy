@@ -19,5 +19,6 @@
     "ext-bcmath": "*",
     "ext-curl": "*",
     "ext-json": "*"
-  }
+  },
+  "license": "MIT"
 }
