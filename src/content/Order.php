@@ -64,8 +64,6 @@ final class Order extends Content
     public function formatData()
     {
         $this->items['totalMonetaryAmount'] = number_format($this->items['totalMonetaryAmount'], 3, '.', '');
-        //车辆总数
-        $this->items['vehicleAmount'] = count($this->items['vehicleInfo']);
     }
 
     /**

@@ -41,7 +41,7 @@ class Financiallist extends Content
             'receiptAccount'   => 'require|max:512',
             'bankCode'         => 'require|max:11',
             'sequenceCode'     => 'require|max:50',
-            'monetaryAmount'   => 'require|float|>:0|1000000000000000',
+            'monetaryAmount'   => 'require|float|>:0|<:1000000000000000',
             'dateTime'         => 'require|dateFormat:YmdHis',
         ]);
     }
