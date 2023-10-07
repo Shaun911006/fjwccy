@@ -65,7 +65,6 @@ final class Truck extends Content
             $validate->check($this->items, [
                 'owner'                => 'require',
                 'useCharacter'         => 'require',
-                'vin'                  => 'require',
                 'issuingOrganizations' => 'require',
                 'registerDate'         => 'require',
                 'issueDate'            => 'require',
